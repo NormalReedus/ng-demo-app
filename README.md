@@ -25,3 +25,31 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+# Features
+- [ ] Use slots
+- [ ] Use 'computed' values
+- [ ] Use dynamic styling
+  - CSS that is generated with javascript and bound to the view, either as inline styles or CSS vars
+  - Conditional classes
+- [ ] Use Inputs and Emits
+- [ ] Use template pipes
+- [ ] Use modules to lazy load components and segment logic
+- [x] SSR
+- [ ] Safe server side API call before rendering a route
+  - The request should be sent from the backend
+  - The page should only render when the data comes through
+  - It should be done in a manner such that no secret keys leak through to the frontend
+- Linting with auto-fix
+  - [ ] TS-lint
+  - [ ] Stylelint
+- [ ] Shared state
+- [ ] Custom directive
+- [ ] Animated route change
+- [ ] Global header / footer (layout)
+- [ ] Markdown content
+  - Use [this guide](https://techspire.nl/how-to-build-a-blog-with-angular-11-markdown-bootstrap-5-and-the-aws-cloud-s3/)
+- [ ] Forms with validation
+- [ ] Advanced rendering (render function?)
+- [ ] Deep CSS-selectors
