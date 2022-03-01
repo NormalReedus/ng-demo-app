@@ -162,9 +162,21 @@
             }
           },
           "defaultConfiguration": "production"
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "ng-demo-app"
+  "defaultProject": "ng-demo-app",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }

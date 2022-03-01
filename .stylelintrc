@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-prettier-scss"
+  ],
+  "syntax": "scss",
+  "rules": {
+    "indentation": "tab",
+    "no-extra-semicolons": true,
+    "declaration-block-trailing-semicolon": "always",
+    "max-empty-lines": [
+			2,
+			{
+				"ignore": ["comments"]
+			}
+		],
+    "rule-empty-line-before": [
+			"always",
+			{
+				"ignore": ["after-comment", "first-nested"]
+			}
+		],
+    "selector-max-id": 0
+  }
+}
